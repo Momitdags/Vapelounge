@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0; 
+    background-size: cover;
+    background-position: center;
+}
+.Structure {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    gap: 20%;
+}
+.vape {
+    max-width: 40%;
+    font-family: "Press Start 2P",'Courier New', Courier, monospace;
+}
+
+.vape h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 5px 5px 4px black;
+}
+
+.vape p {
+    font-size: 18px;
+    margin: 15px 0;
+    text-shadow: 5px 5px 4px black;
+}
+
+button {
+    background-color: #c38a5f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #a36f4d;
+    text-shadow: 5px 5px 4px black;
+}
+
+.box {
+    display: flex;
+    gap: 50px;
+}
+.logo img {
+    max-width: 80%;
+    border-radius: 30px;
+}
+.logo {
+    width: 40%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: black;
+}

@@ -1,0 +1,111 @@
+a:link{
+    color: white;
+}
+a:hover{
+    color: orangered;
+}
+a:active{
+    color: gray;
+}
+.nav-links li a:hover{
+    color: orangered;
+}
+.nav-links li a:active{
+    color: grey;
+}
+body{
+    background-image: url("Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.top-bar h2 {
+    font-family: "Press Start 2P",'Courier New', Courier, monospace;
+    margin: 0;
+    font-size: 22px;
+    color: burlywood;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.nav-links {
+    font-family: 'Courier New', Courier, monospace;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links li a { 
+    text-decoration: none;
+    color: azure;
+    font-size: 18px;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sign-up, .log-in {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.log-in {
+    background-color: #a36f4d;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+.mdags{
+    border-style: solid;
+    border: 3px;
+    border-radius: 50%;
+}
+.foot{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: center;
+}
+.foot h3{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: azure;
+}
+.foot h4{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: azure;
+    margin: 0%;
+}
+
+.site{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.site a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+.center{
+    justify-content: space-around;
+}   
